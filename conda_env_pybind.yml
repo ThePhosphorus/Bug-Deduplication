@@ -1,0 +1,27 @@
+channels:
+  - intel
+  - pytorch
+  - defaults
+  - conda-forge
+  - numba
+dependencies:
+  - python
+  - notebook
+  - pytorch
+  - tbb-devel
+  - setuptools
+  - pybind11
+  - numpy
+  - autopep8
+  - matplotlib
+  - pytest
+  - mypy
+  - scikit-build
+  - tqdm
+  - pip
+  - faiss-gpu
+  - cmake>=3.20
+  - pip:
+    - hyperopt
+    - clang-format
+    - python-Levenshtein
